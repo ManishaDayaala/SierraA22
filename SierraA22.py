@@ -44,8 +44,7 @@ model_folder_path = os.path.join(MAINFOLDER, "Models")
 uploaded_files = []  # List to keep track of uploaded files
 
 # Streamlit UI
-st.title("Breakdown Predictor- Sierra Burnishing(A22)")
-# Read and encode the image
+
 with open(logo_path, "rb") as image_file:
     encoded_image = base64.b64encode(image_file.read()).decode()
 
